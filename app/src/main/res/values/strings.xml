@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Student_Seek</string>
+
+    <string-array name="jobClassification">
+        <item>All Classifications</item>>
+        <item>Accouting</item>
+        <item>Administration and Office Support</item>
+        <item>Advertising,Arts and Media</item>
+        <item>Banking and Financial Services</item>
+        </string-array>
+
+    <string-array name="workTypes">
+        <item>All Work Types</item>>
+        <item>Full Time</item>
+        <item>Part Time</item>
+        <item>Contract</item>
+        <item>Casual</item>
+    </string-array>
+
+
+</resources>

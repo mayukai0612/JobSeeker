@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yukai.monash.student_seek">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First_view_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".JobSeekerHomePage_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmployerHomePage_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signin_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signup_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".createprofile_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".jobseeker_editprofile_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".hire_editprofile_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".coverphoto_activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Userprofile"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".About_activity"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>
